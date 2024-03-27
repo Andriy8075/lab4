@@ -1,0 +1,33 @@
+.firstGraphs {
+    font-size: 2em;
+}
+
+.secondGraphDiv {
+    width: 50%;
+    display: flex;
+    position: absolute;
+    font-size: 2em;
+    top: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.graphDiv {
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 25%;
+}
+
+.condensationDiv {
+    left: 50%;
+    width: 50%;
+    display: flex;
+    position: absolute;
+    font-size: 2em;
+    top: 1400px;
+    justify-content: center;
+    align-items: center;
+}
