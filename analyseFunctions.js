@@ -244,23 +244,6 @@ const getPaths = (textArea, matrix, lengthOfPath, countOfPathInRow) => {
     textArea.textContent += '\n';
 }
 
-// const adjacencyToReachability = (adjacencyMatrix) => {
-//     const numVertices = adjacencyMatrix.length;
-//     let reachabilityMatrix = adjacencyMatrix.map(row => [...row]);
-//
-//     for (let k = 0; k < numVertices; k++) {
-//         for (let i = 0; i < numVertices; i++) {
-//             for (let j = 0; j < numVertices; j++) {
-//                 reachabilityMatrix[i][j] = reachabilityMatrix[i][j] ||
-//                     (reachabilityMatrix[i][k] && reachabilityMatrix[k][j]);
-//                 if(i === j) reachabilityMatrix[i][j] = 1;
-//             }
-//         }
-//     }
-//
-//     return reachabilityMatrix;
-// }
-
 const getMatrixOfStrongConnectivity = (reachabilityMatrix) => {
     const newMatrix = [];
     for(let row = 0; row < reachabilityMatrix.length; row++) {

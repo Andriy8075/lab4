@@ -96,8 +96,3 @@ secondGraphAnalyse.textContent += '\nCondensation matrix:\n'
 writeMatrixInTextArea(secondGraphAnalyse, condensationMatrix);
 createGraph(condensationMatrix.length, radiusOfCircleOfVertexes*2/3, condensationMatrix,
     window.innerWidth*3/4, 1500, true);
-
-// console.log(getAllCompositions([[0, 1, 0],[1, 0, 1],[0, 0, 0]]))
-//
-//
-// console.log(getReachabilityMatrix(getAllCompositions(secondDirectedMatrix)));
